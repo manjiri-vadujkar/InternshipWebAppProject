@@ -1,0 +1,27 @@
+
+@import url('https://fonts.googleapis.com/css?family=Lato|Merriweather&display=swap');
+
+h1 {
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 65%;
+  left: 43%;
+}
+
+h1 {
+	font-family: 'Merriweather', serif;
+	font-size: 50px;
+}
+
+img {
+	border: 1px solid #0abde3;
+	border-radius: 10px;
+}
+
+.row>img {
+	border: 1px #0abde3 solid;
+	border-radius: 1000px;
+}
