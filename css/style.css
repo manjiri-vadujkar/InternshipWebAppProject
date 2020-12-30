@@ -1,0 +1,313 @@
+
+@import url('https://fonts.googleapis.com/css?family=Lato|Merriweather&display=swap');
+
+li.nav-item a {
+	font-family: 'Merriweather', serif;
+    font-size: 24px;
+}
+
+.dropdown-menu {
+	background-color: #0abde3;
+}
+
+.dropdown-item {
+	font-family: 'Merriweather', serif;
+	color: white; 
+}
+
+#header {
+	background-color: #0abde3;
+}
+
+.carousel-item img {
+  height: 630px;
+}
+
+.carousel-caption {
+	font-family: 'Merriweather', serif;
+	top: 0;
+}
+
+h2 {
+	color: #0abde3;
+	font-family: 'Merriweather', serif;
+	font-size: 36px;
+	text-align: center;
+}
+
+hr {
+	border-color: #0abde3;
+	border-width: 8px;
+	max-width: 150px;
+}
+
+.about img {
+	border: 1px solid #0abde3;
+	border-radius: 10px;
+}
+
+.para {
+	border: 1px solid #0abde3;
+	border-radius: 10px;
+}
+
+#about p {
+	font-family: 'Lato', sans-serif;
+}
+
+.card-title {
+	font-family: 'Merriweather', serif;
+}
+
+.card-text {
+	font-family: 'Lato', sans-serif;
+}
+
+#services a,h5 {
+	color: #0abde3;
+}
+
+.card {
+	border: 1px solid #0abde3;
+}
+
+#footer{
+	background-color: #0abde3;
+	color: white;
+	list-style: none;
+}
+
+#footer h6 {
+	font-family: 'Merriweather', serif;
+}
+
+#footer p {
+	font-family: 'Lato', sans-serif;
+}
+
+#footer a {
+	font-family: 'Merriweather', serif;
+	color: white;
+}
+
+.fa-facebook-f, .fa-twitter, .fa-google-plus-g, .fa-instagram {
+	width: 70px;
+	height: 50px;
+	border: 3px solid white;
+	border-radius: 10px;
+}
+
+#social a {
+	font-family: 'Lato', sans-serif;
+	color: white;
+}
+
+.fa-facebook-f:hover {
+	color: blue;
+	background-color: white;
+}
+
+.fa-twitter:hover {
+	background-color: blue;
+}
+
+.fa-google-plus-g:hover {
+	background-color: orange;
+}
+
+.fa-instagram:hover {
+	background-image: linear-gradient(to bottom right, blue, purple, red, yellow);
+}
+
+#footer ul {
+	font-family: 'Lato', sans-serif
+	font-size: 18px;
+	color: white;
+	list-style: none;
+}
+
+.btn-circle { 
+    width: 54px; 
+    height: 54px; 
+    padding: 0px 0px; 
+    border: 0px solid white;
+    border-radius: 27px;  
+    background-color: white;
+    transition: all 1s;
+} 
+
+.btn-circle:hover {
+	color: white;
+	box-shadow: 5px 5px rgb(255,255,255,0.5);
+	transform: scale(1.1);
+}
+
+#top {
+	z-index: 999; 
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	color: #0abde3;
+}
+
+
+/*About Us*/
+
+h1 {
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 500px;
+  left: 630px;
+}
+
+h1 {
+	font-family: 'Merriweather', serif;
+	font-size: 50px;
+}
+
+.about>img {
+	border: 1px solid #0abde3;
+	border-radius: 10px;
+}
+
+.emp>img {
+	border: 1px #0abde3 solid;
+	border-radius: 1000px;
+}
+
+/*Gallery*/
+
+.gallery {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+#gallery img {
+	width: 450px;
+	height: 300px;
+	transition: all 1s;
+}
+
+#gallery img:hover {
+	transform: scale(1.1);
+}
+
+.btns {	
+	text-align: left;
+  	position: sticky;
+  	top: 15px;
+}
+
+.btn {
+	color: white;
+	font-family: 'Merriweather', serif;
+	background-color: #0abde3;
+	border: 2px white solid;
+	font-size: 24px;
+	transition: all 1s;
+}
+
+.btn:hover {
+	color: white;
+	box-shadow: 5px 5px rgb(10,189,227,0.5);
+	transform: scale(1.1);
+}
+
+/* Services */
+
+#services2 img {
+	border: 1px solid #0abde3;
+	border-radius: 10px;
+}
+
+/* Contact */
+.form {
+	border-right:2px solid #0abde3;
+}
+
+.map{
+	border-left: 2px solid #0abde3;
+}
+
+.form-style {
+	font-family: 'Merriweather', serif;
+	max-width: 600px;
+}
+
+.form-style input,textarea {
+	width: 100%;
+	margin: auto;
+	padding: 2%;
+	font-family: 'Merriweather', serif;
+}
+
+.form-style label {
+	margin-top: 10px;
+}
+
+.form-style input[value="Send"] {
+	font-size: 20px;
+	margin-top: 10px;
+	font-family: 'Merriweather', serif;
+	width: 25%;
+	padding: 2%;
+	background: #0abde3;
+	border: 2px solid #0abde3;	
+	color: #fff;
+	transition: all 0.1s;
+}
+.form-style input[value="Send"]:hover {
+	transform: scale(1.1);
+}
+
+/* Register */
+
+.form-style input[value="Register"] {
+	font-size: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-family: 'Merriweather', serif;
+	width: 25%;
+	padding: 2%;
+	background: #0abde3;
+	border: 2px solid #0abde3;	
+	color: #fff;
+}
+
+.form-style input[value="Register"]:hover {
+	transform: scale(1.1);
+}
+
+.form-style input {
+	width: 100%;
+	margin: 10px auto;
+	padding: 2%;
+	font-family: 'Merriweather', serif;
+}
+
+.form-style input[type="radio"] {
+	width: 10%;
+	color: #0abde3;
+}
+
+/* Login */
+
+.form-style input[value="Login"] {
+	font-size: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-family: 'Merriweather', serif;
+	width: 25%;
+	padding: 2%;
+	background: #0abde3;
+	border: 2px solid #0abde3;	
+	color: #fff;
+}
+
+.form-style input[value="Login"]:hover {
+	transform: scale(1.1);
+}
